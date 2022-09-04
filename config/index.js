@@ -4,14 +4,16 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxde1057ef5c263339",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
-
+  APP_SECRET: "448391e1539b87256540f2a2286dcf78",
+  
+  //模板消息id
+  TEMPLATE_ID:"V8NRVItgDqG05w_8ozxGCLiktPsocEsdj9_OWSyqu8U",
   /**
-   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [
+   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1","wx2"]
+   USERS:["ohg8U50iTptxrjGPOdJj16H6Cz0w"
    *  {
    *    // 想要发送的人的名字
    *    name: "老婆0",
@@ -33,9 +35,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
       // 所在省份
-      province: "广东",
+      province: "河北",
       // 所在城市
-      city: "肇庆",
+      city: "石家庄",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -73,7 +75,7 @@ export const config = {
   CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
+  CALLBACK_USERS: [ohg8U54eTNwexJ-jYoSNbu-1-1YU
     {
       // 一般都填自己
       name: "自己",
@@ -89,7 +91,7 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "河北",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: "惠州",
 
@@ -102,10 +104,9 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "小邢", "year": "2002", "date": "05-03"},
+    {"type": "节日", "name": "第一次在一起的日子", "year": "2019", "date": "12-04"},
+   
   ],
 
   /**
